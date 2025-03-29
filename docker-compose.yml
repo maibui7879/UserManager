@@ -6,8 +6,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 7879maibui
       MYSQL_DATABASE: UserManager
-      MYSQL_USER: root
-      MYSQL_PASSWORD: 7879maibui
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: maibui7879
     ports:
       - "3306:3306"
     volumes:
